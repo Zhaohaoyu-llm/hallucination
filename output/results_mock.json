@@ -1,0 +1,182 @@
+[
+  {
+    "id": "h01",
+    "is_hallucination": true,
+    "hallucination_type": "政策编造",
+    "severity": "中等",
+    "category": "政策歪曲",
+    "detail": "退货天数严重不一致：知识库为7天，回复为30天",
+    "confidence": 0.92
+  },
+  {
+    "id": "h02",
+    "is_hallucination": true,
+    "hallucination_type": "参数编造",
+    "severity": "高危",
+    "category": "事实编造",
+    "detail": "蓝牙版本不一致：知识库为'5.0'，回复为'5.3'",
+    "confidence": 0.9
+  },
+  {
+    "id": "h03",
+    "is_hallucination": true,
+    "hallucination_type": "能力越界",
+    "severity": "严重",
+    "category": "能力越界",
+    "detail": "知识库表明系统不具备该操作能力，但回复声称已执行了该操作",
+    "confidence": 0.92
+  },
+  {
+    "id": "h04",
+    "is_hallucination": true,
+    "hallucination_type": "政策偏差",
+    "severity": "中等",
+    "category": "政策歪曲",
+    "detail": "发票申请入口指引错误：回复让用户在备注填写，但知识库要求通过订单详情页申请",
+    "confidence": 0.85
+  },
+  {
+    "id": "h05",
+    "is_hallucination": true,
+    "hallucination_type": "优惠编造",
+    "severity": "中等",
+    "category": "政策歪曲",
+    "detail": "回复声称存在'满300减50'优惠，但知识库中无此优惠活动",
+    "confidence": 0.93
+  },
+  {
+    "id": "h06",
+    "is_hallucination": true,
+    "hallucination_type": "参数编造",
+    "severity": "高危",
+    "category": "事实编造",
+    "detail": "材质不一致：知识库为'PU合成革'，回复为'头层牛皮'",
+    "confidence": 0.9
+  },
+  {
+    "id": "h07",
+    "is_hallucination": true,
+    "hallucination_type": "信息编造",
+    "severity": "高危",
+    "category": "事实编造",
+    "detail": "回复给出了具体地址/收件人信息，但知识库明确要求此类信息需由系统自动匹配后发送，不可口头告知",
+    "confidence": 0.95
+  },
+  {
+    "id": "h08",
+    "is_hallucination": true,
+    "hallucination_type": "政策偏差",
+    "severity": "中等",
+    "category": "政策歪曲",
+    "detail": "发货时间不一致：知识库为24小时，回复为48小时。此外快递公司也可能存在偏差",
+    "confidence": 0.88
+  },
+  {
+    "id": "h09",
+    "is_hallucination": true,
+    "hallucination_type": "参数编造",
+    "severity": "高危",
+    "category": "事实编造",
+    "detail": "知识库未标注该功能/参数，但回复给出肯定性参数描述",
+    "confidence": 0.82
+  },
+  {
+    "id": "h10",
+    "is_hallucination": true,
+    "hallucination_type": "能力越界",
+    "severity": "严重",
+    "category": "能力越界",
+    "detail": "知识库表明系统不具备该操作能力，但回复声称已执行了该操作",
+    "confidence": 0.92
+  },
+  {
+    "id": "h11",
+    "is_hallucination": true,
+    "hallucination_type": "信息编造",
+    "severity": "高危",
+    "category": "事实编造",
+    "detail": "回复声称有线下门店，但知识库明确品牌为纯线上电商",
+    "confidence": 0.95
+  },
+  {
+    "id": "h12",
+    "is_hallucination": false,
+    "hallucination_type": null,
+    "severity": null,
+    "category": null,
+    "detail": "回复与知识库一致，未检测到明显的幻觉问题",
+    "confidence": 0.75
+  },
+  {
+    "id": "h13",
+    "is_hallucination": true,
+    "hallucination_type": "安全误导",
+    "severity": "严重",
+    "category": "安全误导",
+    "detail": "知识库包含安全风险提示，但回复给出肯定性安全承诺，可能误导用户忽视潜在风险",
+    "confidence": 0.9
+  },
+  {
+    "id": "h14",
+    "is_hallucination": true,
+    "hallucination_type": "能力越界",
+    "severity": "严重",
+    "category": "能力越界",
+    "detail": "知识库表明系统不具备该操作能力，但回复声称已执行了该操作",
+    "confidence": 0.92
+  },
+  {
+    "id": "h15",
+    "is_hallucination": true,
+    "hallucination_type": "信息编造",
+    "severity": "高危",
+    "category": "事实编造",
+    "detail": "回复编造了品牌关联关系，知识库中无相关信息",
+    "confidence": 0.88
+  },
+  {
+    "id": "h16",
+    "is_hallucination": false,
+    "hallucination_type": null,
+    "severity": null,
+    "category": null,
+    "detail": "回复与知识库一致，未检测到明显的幻觉问题",
+    "confidence": 0.75
+  },
+  {
+    "id": "h17",
+    "is_hallucination": true,
+    "hallucination_type": "参数编造",
+    "severity": "高危",
+    "category": "事实编造",
+    "detail": "接口类型不一致：知识库为'USB-A输出'，回复为'Type-C'",
+    "confidence": 0.9
+  },
+  {
+    "id": "h18",
+    "is_hallucination": true,
+    "hallucination_type": "能力越界",
+    "severity": "严重",
+    "category": "能力越界",
+    "detail": "知识库表明系统不具备该操作能力，但回复声称已执行了该操作",
+    "confidence": 0.92
+  },
+  {
+    "id": "h19",
+    "is_hallucination": true,
+    "hallucination_type": "优惠编造",
+    "severity": "中等",
+    "category": "政策歪曲",
+    "detail": "回复声称有学生优惠，但知识库明确'无学生优惠政策'",
+    "confidence": 0.92
+  },
+  {
+    "id": "h20",
+    "is_hallucination": true,
+    "hallucination_type": "信息遗漏",
+    "severity": "轻微",
+    "category": "信息遗漏",
+    "detail": "知识库包含用户反馈统计数据，但回复给出绝对化结论，遗漏了可能影响用户决策的关键信息",
+    "confidence": 0.72
+  }
+]

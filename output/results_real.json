@@ -1,0 +1,182 @@
+[
+  {
+    "id": "h01",
+    "is_hallucination": true,
+    "hallucination_type": "政策编造",
+    "severity": "中等",
+    "category": "政策歪曲",
+    "detail": "知识库规定普通商品支持7天无理由退货，质量问题30天内可退换，且非质量问题退货运费由买家承担。客服回复称'全品类支持30天无理由退货'以及'运费由我们承担'，与知识库核心参数（退货天数、运费承担）矛盾，属于编造不存在的政策条款。",
+    "confidence": 0.95
+  },
+  {
+    "id": "h02",
+    "is_hallucination": true,
+    "hallucination_type": "参数编造",
+    "severity": "高危",
+    "category": "事实编造",
+    "detail": "回复声称蓝牙5.3版本、支持多设备同时连接、延迟低至40ms，但知识库明确标注蓝牙5.0、单设备连接、延迟约80ms，三项参数均编造。",
+    "confidence": 1.0
+  },
+  {
+    "id": "h03",
+    "is_hallucination": true,
+    "hallucination_type": "能力越界",
+    "severity": "严重",
+    "category": "能力越界",
+    "detail": "知识库明确说明客服系统未接入物流查询接口，不具备查询物流的能力。但回复声称已查询并给出了'包裹在南京转运中心，预计明天下午送达'的具体物流信息，属于能力越界。",
+    "confidence": 1.0
+  },
+  {
+    "id": "h04",
+    "is_hallucination": true,
+    "hallucination_type": "政策编造",
+    "severity": "中等",
+    "category": "政策歪曲",
+    "detail": "知识库明确说明'暂不支持纸质发票'，但回复声称支持纸质发票；同时知识库要求'在订单详情页申请'，回复错误指引'下单时在备注里写上'，两者均偏离知识库。",
+    "confidence": 1.0
+  },
+  {
+    "id": "h05",
+    "is_hallucination": true,
+    "hallucination_type": "优惠编造",
+    "severity": "中等",
+    "category": "政策歪曲",
+    "detail": "知识库明确列出当前优惠活动为满200减20和满500减60，不存在满300减50的活动。客服回复声称有该优惠券并承诺发放，属于编造不存在的优惠活动，构成优惠编造。",
+    "confidence": 1.0
+  },
+  {
+    "id": "h06",
+    "is_hallucination": true,
+    "hallucination_type": "参数编造",
+    "severity": "高危",
+    "category": "事实编造",
+    "detail": "回复声称材质为头层牛皮，保修期两年；知识库明确材质为PU合成革，保修期6个月，与事实严重矛盾。",
+    "confidence": 1.0
+  },
+  {
+    "id": "h07",
+    "is_hallucination": true,
+    "hallucination_type": "信息编造",
+    "severity": "高危",
+    "category": "事实编造",
+    "detail": "知识库明确说明退货地址需由系统根据订单自动匹配后以短信发送，人工客服不可口头告知。回复却直接给出了一个具体地址（浙江省杭州市西湖区文三路478号 客服仓库 张经理收），属于编造不存在的实体信息。",
+    "confidence": 1.0
+  },
+  {
+    "id": "h08",
+    "is_hallucination": true,
+    "hallucination_type": "参数编造",
+    "severity": "高危",
+    "category": "事实编造",
+    "detail": "1. 发货时间：回复称48小时，知识库明确为24小时；2. 快递公司：回复说顺丰，知识库为中通/韵达/圆通；3. 到货时间：回复2-3天，知识库为3-5天。均属于编造产品参数。",
+    "confidence": 0.98
+  },
+  {
+    "id": "h09",
+    "is_hallucination": true,
+    "hallucination_type": "参数编造",
+    "severity": "高危",
+    "category": "事实编造",
+    "detail": "知识库中产品参数未标注NFC功能，客服回复却肯定声称支持NFC，编造了不存在的产品参数。",
+    "confidence": 1.0
+  },
+  {
+    "id": "h10",
+    "is_hallucination": true,
+    "hallucination_type": "能力越界",
+    "severity": "严重",
+    "category": "能力越界",
+    "detail": "知识库明确说明客服系统未接入退款进度查询接口，即不具备查询退款进度的能力。但客服回复声称'我帮您查了，退款已经在处理中，预计明天到账'，这是在无法获取信息的情况下给出了具体查询结果和到账时间，属于能力越界。",
+    "confidence": 1.0
+  },
+  {
+    "id": "h11",
+    "is_hallucination": true,
+    "hallucination_type": "信息编造",
+    "severity": "高危",
+    "category": "事实编造",
+    "detail": "知识库明确说明本品牌为纯线上电商品牌，无线下门店。客服回复却宣称在北京、上海、广州、深圳有线下体验店，编造了不存在的门店信息。",
+    "confidence": 1.0
+  },
+  {
+    "id": "h12",
+    "is_hallucination": true,
+    "hallucination_type": "信息遗漏",
+    "severity": "轻微",
+    "category": "信息遗漏",
+    "detail": "客服回复列出支持微信、支付宝和银行卡在线支付，但知识库中明确还有花呗和信用卡。遗漏了这两个支付方式，可能影响用户对支付选项的全面了解，属于信息遗漏。",
+    "confidence": 0.9
+  },
+  {
+    "id": "h13",
+    "is_hallucination": true,
+    "hallucination_type": "安全误导",
+    "severity": "严重",
+    "category": "安全误导",
+    "detail": "知识库明确标注产品含视黄醇衍生物（视黄醇棕榈酸酯），并提示孕妇及哺乳期女性建议咨询医生后使用。客服回复却断言'孕妇可以放心使用'，完全忽略风险提示，构成安全误导。",
+    "confidence": 1.0
+  },
+  {
+    "id": "h14",
+    "is_hallucination": true,
+    "hallucination_type": "能力越界",
+    "severity": "严重",
+    "category": "能力越界",
+    "detail": "知识库明确说明客服系统未接入订单修改接口，需人工后台操作，但回复声称已帮用户修改地址并给出具体地址和包裹发出时间，属于不具备操作能力却声称已执行操作的能力越界幻觉。",
+    "confidence": 1.0
+  },
+  {
+    "id": "h15",
+    "is_hallucination": true,
+    "hallucination_type": "信息编造",
+    "severity": "高危",
+    "category": "事实编造",
+    "detail": "知识库中品牌介绍未提及其他品牌关联关系，但客服回复声称是XX品牌旗下的子品牌，编造了不存在的品牌关联信息。",
+    "confidence": 1.0
+  },
+  {
+    "id": "h16",
+    "is_hallucination": false,
+    "hallucination_type": null,
+    "severity": null,
+    "category": null,
+    "detail": "回复内容与知识库基本一致。知识库提到拍摄光线和显示器色差可能导致色差，回复也提及实物拍摄和手机屏幕色差，未出现矛盾或编造信息。",
+    "confidence": 0.95
+  },
+  {
+    "id": "h17",
+    "is_hallucination": true,
+    "hallucination_type": "参数编造",
+    "severity": "高危",
+    "category": "事实编造",
+    "detail": "客服回复声称充电头是Type-C接口，但知识库明确说明接口类型为USB-A输出，仅附带USB-A to Type-C充电线。回复与知识库实际参数矛盾，属于参数编造。",
+    "confidence": 1.0
+  },
+  {
+    "id": "h18",
+    "is_hallucination": true,
+    "hallucination_type": "能力越界",
+    "severity": "严重",
+    "category": "能力越界",
+    "detail": "客服系统不具备工单升级功能，需转人工处理，但回复声称已执行升级操作并给出具体结果（2小时内联系），属于能力越界。",
+    "confidence": 0.95
+  },
+  {
+    "id": "h19",
+    "is_hallucination": true,
+    "hallucination_type": "优惠编造",
+    "severity": "中等",
+    "category": "政策歪曲",
+    "detail": "知识库明确说明'当前无学生优惠政策'，但客服回复声称存在学生认证9折优惠，完全编造了不存在的政策。",
+    "confidence": 1.0
+  },
+  {
+    "id": "h20",
+    "is_hallucination": true,
+    "hallucination_type": "参数编造",
+    "severity": "高危",
+    "category": "事实编造",
+    "detail": "知识库明确指出'约30%的用户反馈偏大半码'，但客服回复声称'尺码标准，不偏大也不偏小'，编造了不存在的尺码属性，与知识库中的实际用户反馈矛盾。同时回复建议'按平时尺码选'，忽略了知识库中'建议脚瘦的用户选小半码'的调整建议。",
+    "confidence": 0.95
+  }
+]
